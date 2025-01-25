@@ -1,0 +1,68 @@
+[gd_scene load_steps=3 format=3 uid="uid://dd6iwrbcfaace"]
+
+[ext_resource type="PackedScene" uid="uid://bajqy1odan1dy" path="res://Scenes/WeaponSocket/WeaponSocket.tscn" id="2_s4156"]
+[ext_resource type="PackedScene" uid="uid://d3b8okn85t76m" path="res://Scenes/WeaponAttachment/LinkedAttachment/LinkedAttachment.tscn" id="3_ugvy3"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="WeaponSocket" parent="." instance=ExtResource("2_s4156")]
+z_index = -10
+position = Vector2(143, 240)
+
+[node name="WeaponSocket2" parent="." instance=ExtResource("2_s4156")]
+z_index = -10
+position = Vector2(143, 368)
+
+[node name="WeaponSocket3" parent="." instance=ExtResource("2_s4156")]
+z_index = -10
+position = Vector2(271, 240)
+
+[node name="WeaponSocket4" parent="." instance=ExtResource("2_s4156")]
+z_index = -10
+position = Vector2(271, 368)
+
+[node name="WeaponSocket5" parent="." instance=ExtResource("2_s4156")]
+z_index = -10
+position = Vector2(143, 496)
+
+[node name="WeaponSocket6" parent="." instance=ExtResource("2_s4156")]
+z_index = -10
+position = Vector2(399, 240)
+
+[node name="WeaponSocket7" parent="." instance=ExtResource("2_s4156")]
+z_index = -10
+position = Vector2(271, 496)
+
+[node name="WeaponSocket8" parent="." instance=ExtResource("2_s4156")]
+z_index = -10
+position = Vector2(399, 368)
+
+[node name="WeaponSocket9" parent="." instance=ExtResource("2_s4156")]
+z_index = -10
+position = Vector2(399, 496)
+
+[node name="WeaponSocket10" parent="." instance=ExtResource("2_s4156")]
+z_index = -10
+position = Vector2(143, 112)
+
+[node name="WeaponSocket11" parent="." instance=ExtResource("2_s4156")]
+z_index = -10
+position = Vector2(271, 112)
+
+[node name="WeaponSocket12" parent="." instance=ExtResource("2_s4156")]
+z_index = -10
+position = Vector2(399, 112)
+
+[node name="LinkedSocket" parent="." instance=ExtResource("3_ugvy3")]
+z_index = 10
+position = Vector2(741, 404)
+
+[node name="LinkedSocket2" parent="." instance=ExtResource("3_ugvy3")]
+z_index = 10
+position = Vector2(717, 137)
+shape = Array[String](["X", "X", "O", "|", "X", "X", "O"])
+
+[node name="LinkedSocket3" parent="." instance=ExtResource("3_ugvy3")]
+z_index = 10
+position = Vector2(917, 131)
+shape = Array[String](["X", "O", "O", "|", "X", "O", "O"])
